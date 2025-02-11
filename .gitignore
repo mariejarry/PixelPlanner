@@ -5,3 +5,6 @@ out
 .vs
 .vscode
 PixelPlanner
+gui-builder
+resources/*
+themes/*
