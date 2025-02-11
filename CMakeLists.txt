@@ -12,6 +12,6 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(PixelPlanner src/main.cpp)
+add_executable(PixelPlanner src/main.cpp src/task.cpp)
 target_compile_features(PixelPlanner PRIVATE cxx_std_17)
-target_link_libraries(PixelPlanner PRIVATE SFML::Graphics)
+target_link_libraries(PixelPlanner PRIVATE SFML::Graphics SFML::Audio)
